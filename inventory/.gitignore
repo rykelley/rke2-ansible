@@ -1,5 +1,5 @@
 *
 !.gitignore
-!sample/
-!sample/hosts.yml
+!homelab/
+!homelab/hosts.yml
 !homelab/*
