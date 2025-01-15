@@ -2,3 +2,4 @@
 !.gitignore
 !sample/
 !sample/hosts.yml
+!homelab/*
