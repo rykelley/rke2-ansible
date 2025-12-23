@@ -60,6 +60,7 @@
   delay: "{{ check_node_ready_delay }}"
   changed_when: false
   ignore_errors: "{{ check_node_ready_ignore_errors }}"
+  when: kubelet_node_name is defined and kubelet_node_name | length > 0
 
 - name: Set fact
   ansible.builtin.set_fact:
