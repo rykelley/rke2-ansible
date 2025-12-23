@@ -26,3 +26,4 @@
     src: "/var/lib/rancher/rke2/server/cred/admin.kubeconfig"
     dest: "/root/.kube/config"
     state: link
+    force: true
